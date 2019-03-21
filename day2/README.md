@@ -105,6 +105,7 @@ Extracurricular:
 1. Login again in a second terminal window to Taito-GPU with SSH port forwarding:
 
         ssh -l trainingxxx -L PORT:localhost:PORT taito-gpu.csc.fi
+        cd /cfs/klemming/nobackup/<initial>/<user name>
         
    Replace `PORT` with a freely selectable port number (>1023). By default, TensorBoard uses the port 6006, but **select a different port** to avoid overlaps. 
 
